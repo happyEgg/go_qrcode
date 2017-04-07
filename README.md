@@ -16,6 +16,7 @@ import (
 )
 
 func main() {  
+
 	img := qrcode.Encode("test qrcode", 300, 300)
 
 	file, err := os.Create("./test.png")
