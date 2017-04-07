@@ -4,10 +4,10 @@ golang 编码,解码二维码 ，感谢 bieber的帮助
 
 首先要 go get github.com/happyEgg/go_qrcode
 
-例子
-package main
+例子  
+package main  
 
-import (
+import (  
 	"fmt"  
 	"image/png"  
 	"os"  
@@ -16,7 +16,7 @@ import (
 )
 
 func main() {  
-	img := qrcode.Encode("test qrcode", 300, 300)  
+	img := qrcode.Encode("test qrcode", 300, 300)
 
 	file, err := os.Create("./test.png")
 	if err != nil {  
