@@ -4,7 +4,8 @@ golang 编码,解码二维码 ，感谢 bieber的帮助
 
 开始要 go get github.com/happyEgg/go_qrcode  
 
-引入第三方库 go get github.com/boombuler/barcode
+引入第三方库 go get github.com/boombuler/barcode  
+
 例子  
 package main  
 
