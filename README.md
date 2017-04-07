@@ -2,10 +2,11 @@
 golang 编码,解码二维码 ，感谢 bieber的帮助  
 解码需要#include <zbar.h> c语言库的支持
 
-开始要 go get github.com/happyEgg/go_qrcode
+开始要 go get github.com/happyEgg/go_qrcode  
 
-例子  
-package main  
+引入第三方库 go get github.com/boombuler/barcode
+例子  
+package main  
 
 import (  
 	"fmt"  
